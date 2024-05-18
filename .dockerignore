@@ -1,0 +1,9 @@
+# don't want a database in our container
+# prevents writeable layer from being embedded into a lower layer
+**/*.sqlite3 
+
+# exclude pycache files
+**/__pycache__
+
+# if you have secrets put them in a dir
+secrets/
