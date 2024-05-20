@@ -18,10 +18,10 @@ The ENV variables of **secret.yaml** are...
 | --- | --- | --- | 
 | `SECRET_KEY` | sshhhthisisthesecret | Helps ensure security within application | 
 
-**How to apply deploy application on cluster**
-```kubectl apply -f pod/POD_NAME ```
+**How to deploy application on cluster**  
+```kubectl apply -f pod/POD_NAME ```  
 ```kubectl apply -f service/SERVICE_NAME ```
 
-**How to delete (turn down) application on cluster**
+**How to delete (turn down) application on cluster**  
 ```kubectl delete service/SERVICE_NAME ```
 
