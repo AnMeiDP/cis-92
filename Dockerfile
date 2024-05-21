@@ -14,7 +14,7 @@ ENV PORT=8000
 ENV STUDENT_NAME="AnMei"
 ENV SITE_NAME="Cloud Developement is Cool!"
 ENV SECRET_KEY="secretkey: 2024"
-ENV DEBUG="1"
+ENV DEBUG=1
 ENV DATA_DIR=/data
 RUN mkdir /data
 
