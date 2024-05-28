@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   name: mysite-deployment
   labels:
-    app: mysite
+    function: app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mysite
+      function: app
   template:
     metadata:
       name: mysite-pod
       labels:
-        app: mysite
+        function: app
     spec:
       containers:
       - name: django
@@ -40,4 +40,4 @@ spec:
         - configMapRef:
             name: mysite-config
         - secretRef:
-            name: mysite-secrets
+            name: mysite-secret
