@@ -19,9 +19,6 @@ ENV POSTGRES_USER="mysiteuser"
 ENV POSTGRES_PASSWORD="this-is-a-bad-password"
 ENV POSTGRES_HOSTNAME="localhost"
 
-# Note: Remove DATA_DIR and add POSTGRES * variables
-# ENV DATA_DIR=/data
-
 # Set the working directory
 WORKDIR /mysite 
 
